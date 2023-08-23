@@ -58,7 +58,11 @@ nav{
     font-size: 18px;
     color: #E5E7EB;
 }
-
+.header-content img{
+    width: 700px;
+    height: auto;
+    border-radius: 1em;
+}
 .signup-btn{
     font-weight: 700;
     color: #F9FAF8;

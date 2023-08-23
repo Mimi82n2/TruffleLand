@@ -1,12 +1,10 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: pink;
     display: flex;
     margin: 0;
     min-height: 100vh;
     min-width: 100vw;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 header{
@@ -79,4 +77,76 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.images-section{
+    margin: 60px 0px;
+}
+.images-section h1{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.images-section .images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 208px;
+    text-align: center;
+}
+
+.card p{
+    font-size: 15px;
+    color: #1F2937;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 1em; 
+}
+
+.quote-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 500px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 18px;
+}
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1F2937;
 }
